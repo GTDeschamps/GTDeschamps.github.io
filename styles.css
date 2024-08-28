@@ -48,10 +48,21 @@ footer {
 }
 
 .header-gif {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 75%;
+ /* faire que la taille de l'image ne dépasse pas la taille du header */
+ max-width: 100%;
+
+ /* Donner une taille raisonnable */
+ height: 200px;
+
+ /* Appliquer une légère courbe à la bordure */
+ border-radius: 10px;
+
+ /* centrer l'image horizontalement et verticalement */
+ display: block;
+ margin: 0 auto;
+ position: relative;
+ top: 50%;
+ transform: translateY(-50%);
 }
 
 .about-me-image {
