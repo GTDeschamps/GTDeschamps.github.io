@@ -48,11 +48,10 @@ footer {
 }
 
 .header-gif {
-    text-align: center;
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 75%;
 }
 
 .about-me-image {
