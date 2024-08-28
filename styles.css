@@ -67,7 +67,6 @@ footer {
 
     /* centrer l'image horizontalement et verticalement */
     display: block;
-    margin: 0 auto;
     position: relative;
     top: 100%;
     transform: translateY(-50%);
