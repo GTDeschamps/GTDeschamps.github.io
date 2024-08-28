@@ -71,7 +71,6 @@ footer {
 
     /* centrer l'image horizontalement et verticalement */
     display: block;
-    margin: 0 auto;
     position: relative;
     bottom: 0%;
     transform: translateY(-50%);
@@ -81,6 +80,7 @@ footer {
     width: 200px;
     height: 200px;
     margin: 20px auto;
+    position: relative;
     border-radius: 50%;
     object-fit: cover;
 }
