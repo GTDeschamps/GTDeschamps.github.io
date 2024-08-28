@@ -9,14 +9,14 @@ body {
 
 .title {
     text-align: center;
-    color: #1abc9c;
+    color: #58abb6;
     /* Titres en turquoise */
 }
 
 .title2 {
     text-align: left;
     text-decoration: underline;
-    color: #1abc9c;
+    color: #58abb6;
     /* Titres en turquoise */
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 .nav-links a {
-    color: #1abc9c;
+    color: #58abb6;
     /* Liens en turquoise */
     text-decoration: none;
 }
@@ -127,7 +127,7 @@ footer li {
 }
 
 footer a {
-    color: #1ABC9C;
+    color: #58abb6;
     /* turquoise color */
     text-decoration: none;
 }
