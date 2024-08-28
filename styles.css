@@ -1,12 +1,16 @@
 body {
-    background-color: #05031a; /* Fond bleu foncé */
-    font-family: Tahoma, sans-serif; /* Police Tahoma */
-    color: #ddd; /* Corps du texte en blanc légèrement grisé */
+    background-color: #05031a;
+    /* Fond bleu foncé */
+    font-family: Tahoma, sans-serif;
+    /* Police Tahoma */
+    color: #ddd;
+    /* Corps du texte en blanc légèrement grisé */
 }
 
 .title {
     text-align: center;
-    color: #1abc9c; /* Titres en turquoise */
+    color: #1abc9c;
+    /* Titres en turquoise */
 }
 
 .nav {
@@ -28,41 +32,45 @@ body {
 }
 
 .nav-links a {
-    color: #1abc9c; /* Liens en turquoise */
+    color: #1abc9c;
+    /* Liens en turquoise */
     text-decoration: none;
 }
 
 .nav-links a:hover {
-    color: #34d9b6; /* Liens en turquoise clair au survol */
+    color: #34d9b6;
+    /* Liens en turquoise clair au survol */
 }
 
 #content {
     padding: 20px;
-    margin-top: 60px; /* Espacement entre le header et le contenu */
+    margin-top: 60px;
+    /* Espacement entre le header et le contenu */
 }
 
 footer {
     text-align: center;
-    color: #fff; /* Pied de page en blanc */
+    color: #fff;
+    /* Pied de page en blanc */
     padding: 10px;
 }
 
 .header-gif {
- /* faire que la taille de l'image ne dépasse pas la taille du header */
- max-width: 100%;
+    /* faire que la taille de l'image ne dépasse pas la taille du header */
+    max-width: 100%;
 
- /* Donner une taille raisonnable */
- height: 200px;
+    /* Donner une taille raisonnable */
+    height: 200px;
 
- /* Appliquer une légère courbe à la bordure */
- border-radius: 10px;
+    /* Appliquer une légère courbe à la bordure */
+    border-radius: 10px;
 
- /* centrer l'image horizontalement et verticalement */
- display: block;
- margin: 0 auto;
- position: relative;
- top: 50%;
- transform: translateY(-50%);
+    /* centrer l'image horizontalement et verticalement */
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 100%;
+    transform: translateY(-50%);
 }
 
 .about-me-image {
