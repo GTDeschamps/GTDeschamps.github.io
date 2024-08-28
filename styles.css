@@ -71,7 +71,7 @@ footer {
 
     /* centrer l'image horizontalement et verticalement */
     display: block;
-    position: relative;
+    position: center;
     bottom: 0%;
     transform: translateY(-50%);
 }
