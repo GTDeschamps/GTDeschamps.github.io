@@ -45,3 +45,11 @@ footer {
     color: #fff; /* Pied de page en blanc */
     padding: 10px;
 }
+
+.about-me-image {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
