@@ -63,6 +63,9 @@ footer {
     /* Donner une taille raisonnable */
     height: 200px;
 
+     /* ajouter une marge en haut pour créer un espace */
+  margin-top: 20px;
+
     /* Appliquer une légère courbe à la bordure */
     border-radius: 10px;
 
