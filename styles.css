@@ -102,3 +102,32 @@ footer {
     height: 100%;
     /* set the PDF height to full container height */
 }
+
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer li {
+    margin-right: 20px;
+  }
+
+  footer a {
+    color: #1ABC9C; /* turquoise color */
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    color: #16A085; /* darker turquoise color on hover */
+  }
+
+  footer img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
