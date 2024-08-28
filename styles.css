@@ -1,11 +1,12 @@
 body {
     background-color: #040355; /* Fond bleu foncé */
     font-family: Tahoma, sans-serif; /* Police Tahoma */
+    color: #ddd; /* Corps du texte en blanc légèrement grisé */
 }
 
 .title {
     text-align: center;
-    color: #fff; /* Titres en blanc */
+    color: #1abc9c; /* Titres en turquoise */
 }
 
 .nav {
@@ -27,12 +28,12 @@ body {
 }
 
 .nav-links a {
-    color: #fff; /* Liens en blanc */
+    color: #1abc9c; /* Liens en turquoise */
     text-decoration: none;
 }
 
 .nav-links a:hover {
-    color: #ccc; /* Liens en gris clair au survol */
+    color: #34d9b6; /* Liens en turquoise clair au survol */
 }
 
 #content {
