@@ -13,6 +13,13 @@ body {
     /* Titres en turquoise */
 }
 
+.title2 {
+    text-align: left;
+    text-decoration: underline;
+    color: #1abc9c;
+    /* Titres en turquoise */
+}
+
 .nav {
     position: absolute;
     top: 0;
@@ -71,6 +78,7 @@ footer {
 
     /* centrer l'image horizontalement et verticalement */
     display: block;
+    margin: 0 auto;
     position: center;
     bottom: 0%;
     transform: translateY(-50%);
@@ -79,7 +87,8 @@ footer {
 .about-me-image {
     width: 200px;
     height: 200px;
-    margin: 20px auto;
+    display: block;
+    margin: 0 auto;
     position: relative;
     border-radius: 50%;
     object-fit: cover;
@@ -111,23 +120,25 @@ footer ul {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  footer li {
+footer li {
     margin-right: 20px;
-  }
+}
 
-  footer a {
-    color: #1ABC9C; /* turquoise color */
+footer a {
+    color: #1ABC9C;
+    /* turquoise color */
     text-decoration: none;
-  }
+}
 
-  footer a:hover {
-    color: #16A085; /* darker turquoise color on hover */
-  }
+footer a:hover {
+    color: #16A085;
+    /* darker turquoise color on hover */
+}
 
-  footer img {
+footer img {
     width: 20px;
     height: 20px;
     margin-right: 10px;
-  }
+}
