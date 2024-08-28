@@ -1,0 +1,47 @@
+body {
+    background-color: #2f4f7f; /* Fond bleu foncé */
+    font-family: Tahoma, sans-serif; /* Police Tahoma */
+}
+
+.title {
+    text-align: center;
+    color: #fff; /* Titres en blanc */
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff; /* Liens en blanc */
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #ccc; /* Liens en gris clair au survol */
+}
+
+#content {
+    padding: 20px;
+    margin-top: 60px; /* Espacement entre le header et le contenu */
+}
+
+footer {
+    text-align: center;
+    color: #fff; /* Pied de page en blanc */
+    padding: 10px;
+}
