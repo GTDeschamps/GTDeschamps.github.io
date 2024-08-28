@@ -47,21 +47,9 @@ footer {
     padding: 10px;
 }
 
-.hello-world {
-    width: 200px;
-    height: 200px;
-    margin: 20px auto;
-    border-radius: 50%;
-    object-fit: cover;
-    background-color: #1abc9c; /* couleur de fond turquoise */
-    color: #fff; /* couleur du texte blanc */
-    text-align: center;
-    padding: 50px 0; /* ajustez le padding pour centrer le texte verticalement */
-}
-
 .hello-world img {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     object-fit: cover;
     border-radius: 50%;
 }
