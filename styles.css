@@ -84,3 +84,16 @@ footer {
     border-radius: 50%;
     object-fit: cover;
 }
+
+.pdf-container {
+    height: 100vh; /* set the container height to full page height */
+    width: 100vw; /* set the container width to full page width */
+    display: flex; /* center the PDF horizontally and vertically */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pdf-container embed {
+    width: 100%; /* set the PDF width to full container width */
+    height: 100%; /* set the PDF height to full container height */
+  }
