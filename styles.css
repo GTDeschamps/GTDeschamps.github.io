@@ -1,7 +1,7 @@
 .header-gif {
 
     /* faire que la taille de l'image ne dépasse pas la taille du header */
-    max-width: 100%;
+    max-width: 50%;
 
     /* Donner une taille raisonnable */
     height: auto;
