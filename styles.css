@@ -14,7 +14,7 @@
 
     /* centrer l'image horizontalement et verticalement */
     display: block;
-    margin-bottom: 0 auto;
+    margin: 0 auto;
 }
 
 .title {
