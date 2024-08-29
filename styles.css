@@ -1,10 +1,20 @@
-body {
-    background-color: #0e1718;
-    /* Fond bleu foncé */
-    font-family: Tahoma, sans-serif;
-    /* Police Tahoma */
-    color: #ddd;
-    /* Corps du texte en blanc légèrement grisé */
+.header-gif {
+
+    /* faire que la taille de l'image ne dépasse pas la taille du header */
+    max-width: 100%;
+
+    /* Donner une taille raisonnable */
+    height: auto;
+
+    /* ajouter une marge en haut pour créer un espace */
+    margin-top: 20px;
+
+    /* Appliquer une légère courbe à la bordure */
+    border-radius: 10px;
+
+    /* centrer l'image horizontalement et verticalement */
+    display: block;
+    margin-bottom: 0 auto;
 }
 
 .title {
@@ -18,6 +28,15 @@ body {
     text-decoration: underline;
     color: #58abb6;
     /* Titres en turquoise */
+}
+
+body {
+    background-color: #0e1718;
+    /* Fond bleu foncé */
+    font-family: Tahoma, sans-serif;
+    /* Police Tahoma */
+    color: #ddd;
+    /* Corps du texte en blanc légèrement grisé */
 }
 
 .nav {
@@ -69,25 +88,6 @@ footer {
     padding: 10px;
 }
 
-.header-gif {
-
-    /* faire que la taille de l'image ne dépasse pas la taille du header */
-    max-width: 100%;
-
-    /* Donner une taille raisonnable */
-    height: 500px;
-
-    /* ajouter une marge en haut pour créer un espace */
-    margin-top: 10px;
-
-    /* Appliquer une légère courbe à la bordure */
-    border-radius: 10px;
-
-    /* centrer l'image horizontalement et verticalement */
-    display: block;
-    margin-bottom: 0 auto;
-    transform: translateY(-50%);
-}
 
 .about-me-image {
     width: 200px;
