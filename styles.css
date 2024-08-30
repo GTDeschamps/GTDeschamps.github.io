@@ -157,10 +157,13 @@ footer {
 }
 
 .testimonial-image {
-    width: 150px; /* adjust the width to match the "About Me" image */
-    height: 150px; /* adjust the height to match the "About Me" image */
-    border-radius: 10px; /* add a slight border radius to match the "About Me" image */
-    margin: 0 auto; /* center the image horizontally */
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .testimonial-name {
